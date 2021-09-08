@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-
+        navView.bringToFront()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
